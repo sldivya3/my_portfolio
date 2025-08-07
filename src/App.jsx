@@ -7,10 +7,11 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/HomePageComponents/HomePage";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my_portfolio">
       <Navbar />
       <Routes>
         <Route
@@ -18,8 +19,6 @@ const App = () => {
           element={
             <>
               <HeroSection />
-             
-              
               <Footer />
             </>
           }
@@ -27,6 +26,7 @@ const App = () => {
         <Route path="/about" element={<About/>}/>
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/project" element={<Projects/>}/>
       </Routes>
     </BrowserRouter>
   );

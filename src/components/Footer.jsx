@@ -10,8 +10,8 @@ const Footer = () => {
         </div>
          <div className="space-x-5 text-4xl p-5">
           
-          <a href="https://github.com/sldivya3"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/divya-sl/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/sldivya3"><i className="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/divya-sl/"><i className="fa-brands fa-linkedin"></i></a>
         </div>
         </div>
     </div>
